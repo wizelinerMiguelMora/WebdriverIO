@@ -43,7 +43,7 @@ To clone and run this application, you'll need the following:
 
 ```zsh
 # Clone this repository
-git clone https://github.com/hd-dg/hd-e2e-mobile-automation-tests-wizeline.git
+git clone https://github.com/wizelinerMiguelMora/WebdriverIO.git
 
 # Install all the Packages, Dev Dependencies and Dependencies needed
 npm install
