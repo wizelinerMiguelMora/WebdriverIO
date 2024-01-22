@@ -56,7 +56,7 @@ Assuming the user has already installed NodeJs, Android Studio and the JDK, setu
 1. Open the terminal.
 2. Copy the following command in the terminal.
 ```zsh
-nano ~/.zshrc #This will be open the place to pase the Env. Variables
+nano ~/.zshrc # This will be open the place to paste the Env. Variables
 ```
 3. Add the following lines
 ```zsh
@@ -87,13 +87,13 @@ This will include the Android Env Variables and JAVA_HOME.
 
 12. Go to the project and paste the `APK file` in the main root of the project (WebdriverIO Folder)
 
-13. Normally the ".env" file SHOULD not be included in the repository since has sensible data that could includes security data but in this case is also integrated in the project and the information should just be manage in the local env.
+13. Normally the ".env" file SHOULD NOT be included in the repository since has sensible data that could includes security data but in this case is also integrated in the project and the information should just be manage in the local env.
 
 Once the file is generated and all the infomration is provded by other users, reiew the following steps:
 
 1. Plug either a physical devices in or start the emulatror(s) into the local machine. NOTE: To <a href="#Run-Test-in-Paralell">Run Test in Paralell</a> you should start multiple devices at the same time.
 2. Enable the Developer mode in the mobile device. For more infomration visit: [Developer More](https://developer.android.com/studio/debug/dev-options).
-3. Once the device is Go to Developer options and turn on the `USB debugging` option.
+3. Once the device is ready, go to Developer options and turn on the `USB debugging` option.
 4. Open the command line and write the following:
 ```zsh
 adb devices

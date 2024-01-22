@@ -1,6 +1,6 @@
 export default class Actions {
 
-    async findElement(selector) { // Build the Selectir
+    async findElement(selector) { // Build the Selector
         const element = await $(selector)
         return element
     }
@@ -34,7 +34,7 @@ export default class Actions {
         await this.tapElement(selector)
     }
 
-    async getElementLocation(selector, axis) { // Get the pixel location of the soecific element
+    async getElementLocation(selector, axis) { // Get the pixel location of the specific element
         const element = await $(selector)
         await this.elementDisplyed(selector)
         const location = await element.getLocation(axis)
